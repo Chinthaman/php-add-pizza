@@ -1,4 +1,4 @@
-<?php $conn = mysqli_connect('localhost', 'data', 'data007', 'mani');
+<?php $conn = mysqli_connect('13.232.203.226', 'data', 'data007', 'mani');
 
 if(!$conn){
   echo 'connection errors' . mysqli_connect_error();

@@ -27,7 +27,7 @@ mysqli_close($conn);
         <div class="card z-depth-0">
           <img src="./img/pizza.jpg" class="pizza">
           <div class="card-content center">
-            <h6><?php echo $pizzacreationinCICD ['title'] ?></h6>
+            <h6><?php echo $pizzacreated ['title'] ?></h6>
             <ul>
               <?php foreach(explode(',', $pizzas[0]['ingredients']) as $ing): ?>
 <li class='btn green m4'><?php echo htmlspecialchars( $ing) ?></li><br />

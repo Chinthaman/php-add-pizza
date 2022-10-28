@@ -1,4 +1,4 @@
-<?php $conn = mysqli_connect('localhost', 'admin', 'admin', 'ninja_pizza');
+<?php $conn = mysqli_connect('localhost', 'data', 'data007', 'mani');
 
 if(!$conn){
   echo 'connection errors' . mysqli_connect_error();

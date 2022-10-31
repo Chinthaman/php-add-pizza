@@ -19,7 +19,7 @@ mysqli_close($conn);
 <html lang="en">
   <?php include('templates/header.php')?>
 
-<h4 class="center grey-text">pizza!</h4>
+<h4 class="center grey-text">pizzaaa!</h4>
 <div class="container">
   <div class="row">
     <?php foreach($pizzas as $pizza): ?>
